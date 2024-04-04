@@ -7,5 +7,6 @@ public class SearchRequest {
     private String title;
     private String isbn;
     private String author;
+    private Integer pagesNum;
 
 }

@@ -1,13 +1,10 @@
 package ro.sda.java64.task10.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
+@Entity()
 @Getter
 @Setter
 @Table(name = "books")
@@ -18,6 +15,7 @@ public class Book {
     private String title;
     private String author;
     private String isbn;
+
     private Integer pagesNum;
 
 
